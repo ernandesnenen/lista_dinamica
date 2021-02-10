@@ -1,0 +1,67 @@
+body {
+   background-color: #ccc;
+   margin: 0;
+   padding: 0;
+}
+
+.caixaNote{
+    background-color: #fff;
+    padding: 18px 18px;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 20px;
+
+    & .note{
+        width: 100%;
+        border: none;
+        font-size: 1.2em;
+        &:focus{
+            outline: none;
+        }
+    }
+    
+}
+.container{
+    margin: 0 auto;
+    padding: 28;
+    max-width: 630px;
+}
+
+.lista {
+      margin: 40px 0;
+  }
+  .item{
+    display: flex; 
+    align-items: center;
+    background-color: #fff;
+    padding: 18px 18px;
+    border-radius: 2px;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    & .note_text{
+        flex: 1;
+    }
+    & .edit_note{
+        flex: 1;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid #c7c7c7;
+    }
+    & .note_button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        &--hidden{
+            visibility: hidden;
+        }
+        &_red{
+            color: red;
+        }
+        &_green{
+            color: rgb(0, 255, 98);
+        }
+    }
+   
+  }

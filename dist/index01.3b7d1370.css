@@ -1,0 +1,55 @@
+body {
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+.caixaNote {
+  background-color: #fff;
+  padding: 18px 18px;
+  border-radius: 2px;
+  text-align: center;
+  margin-top: 20px;
+}
+.caixaNote .note {
+  width: 100%;
+  border: none;
+  font-size: 1.2em;
+}
+.caixaNote .note:focus {
+  outline: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 28;
+  max-width: 630px;
+}
+
+.lista {
+  margin: 40px 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 18px 18px;
+  border-radius: 2px;
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+.item .node_text {
+  flex: 1;
+}
+.item .note_button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.item .note_button--hidden {
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=/index01.3b7d1370.css.map */
